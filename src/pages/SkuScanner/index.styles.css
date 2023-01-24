@@ -1,0 +1,75 @@
+.footer{
+    position: fixed;
+    bottom: 0px;
+    margin: 10px;
+    left: 0px;
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .footer button{
+padding: 10px;
+width: 70px;
+}
+@media screen and (max-width: 730px) {
+    .footer{
+        width: 60%;
+        
+
+    }
+    .footer button{
+        padding: 5px;
+        width: 50px;
+        }
+}
+@media screen and (min-width: 740px) and (max-width: 1150px) {
+    .footer{
+        width: 40%;
+        
+
+    }
+}
+  .modalContainer{
+    width: 300px;
+    height: auto;
+     margin: 0px auto;
+     border: 1px solid grey;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+    }
+    .modalHeader{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: #2B3990;
+    margin-bottom: 10px;
+
+    
+    }
+    .modalHeader h2{
+        padding-top: 8px;
+    }
+    .ModalButton{
+        font-size: 12px;
+margin: 5px;
+margin-bottom: 10px;
+margin-left: 10px;
+    }
+    .cancelSign{
+        filter: invert(1);
+    }
+    .ModalText{
+        padding-left: 15px;
+    }
+    .mainContainer{
+        opacity: 0.2;
+        
+    }

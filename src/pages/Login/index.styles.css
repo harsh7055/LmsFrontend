@@ -1,0 +1,138 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.inner-page-container{
+    height: calc(100vh - 60px);
+}
+@media screen and (max-height: 474px) {
+
+
+ .deviceContainer{
+    height: calc(100vh - 100px);
+     
+}
+}
+
+.inputWrapper
+{
+    margin-bottom: 20px;
+    text-align: left;
+}
+select.form-control{
+height: 42px;
+}
+.card
+{
+    /* height: 75vh; */
+    
+    /* box-shadow: 10px 10px 5px lightblue; */
+    box-shadow: none;
+    border :0;
+    /* margin: 10px; */
+    width: 400px; 
+    max-width: 96%; 
+    text-align: center; 
+}
+.card-with-border{
+    border: 1px solid #d7d7d7 ;
+    padding: 20px;
+    width: 440px;
+}
+
+.card img{
+    /* margin-bottom: 5%; */
+    width: 40%;
+    height: auto;
+    margin: 0px auto 30px;
+    /* margin-left: 30%;
+    margin-top: 7%; */
+}
+
+.input-container
+{
+    width: 100%;  
+}
+
+
+.input-container label
+{
+    /* margin-left: 20px;  */
+    font-weight: 500;
+    margin-top: 0px;
+    
+}
+.passwordLabel
+{
+  margin-top: 10px;
+    
+}
+
+.input-container input
+{
+  width: 100%; 
+  
+height: 42px;
+}
+
+.buttoncontainer{
+    width: 100%;
+    display: flex;
+    /* margin: 20px; */
+    justify-content:space-between;
+    
+}
+
+.buttoncontainer button{
+   width: 100%;
+
+}
+button{
+    background-color: #2B3990;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    /* border: 5px solid white; */
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    height: 42px;
+    
+}
+
+button:hover
+{
+    background-color: #EC008C;
+    transition: all 0.2s ease-in-out;
+
+}
+/* 
+form{
+    width: 90%;
+} */
+.buttoncontainer{
+    width: 100%;
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 16px; */
+}
+
+
+p{
+    width: 100%;
+    color: #EC008C;
+   text-align: right;
+   
+}
